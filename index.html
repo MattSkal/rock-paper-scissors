@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./app.js"></script>
   </head>
   <body>
-    <script src="./app.js"></script>
+    <div class="container">
+      <p class="header">Rock, paper, scissors!</p>
+      <div class="buttons">
+        <button class="btn" id="rock">
+          <img src="./rock.png" alt="Rock" />
+        </button>
+        <button class="btn" id="paper">
+          <img src="./paper.jpg" alt="Paper" />
+        </button>
+        <button class="btn" id="scissors">
+          <img src="./scissors.jpg" alt="Scissors" />
+        </button>
+      </div>
+      <div class="bottom-cont">
+        <div class="bottom">
+          <div>
+            Player <br />
+            score <br />
+            <div id="player-sc"></div>
+          </div>
+          <div id="middle">
+            <div id="battlefield">
+              <img id="player-choice-img" src=""></img>
+              <img id="ai-choice-img" src=""></img>
+            </div>
+            <div id="declaration"></div>
+          </div>
+          <div>
+            Computer <br />
+            score <br />
+            <div id="computer-sc"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

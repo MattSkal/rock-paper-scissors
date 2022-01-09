@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: rgb(43, 105, 177);
+}
+img {
+  height: 100px;
+  pointer-events: none;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 10px;
+}
+.header {
+  border: none;
+  background-color: rgb(43, 157, 202);
+  border-radius: 10px;
+  padding: 4px 6px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 353.73px;
+}
+.btn {
+  border: none;
+  background-color: rgb(43, 157, 202);
+  border-radius: 10px;
+  padding: 6px;
+}
+.bottom-cont {
+  width: 261.73px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  border: none;
+  background-color: rgb(43, 157, 202);
+  border-radius: 10px;
+  padding: 4px 6px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  text-align: center;
+}
+#middle {
+  display: flex;
+  flex-flow: column wrap;
+}
+#battlefield {
+}
